@@ -288,12 +288,27 @@ nav ul li a:hover {
   text-align:center;
 }
 
+footer{
+background-color: #0f6a6d;
+}
+
+footer p{
+  color: white;
+  line-height:2;
+}
+footer a{
+    color:white;
+}
+footer span{
+
+}
+
 .flex-container {
   flex-direction: column;
   display: block;
-  background-color: #0f6a6d;
 
 }
+
 .flex-container div {
   margin-bottom: 10px;
   min-width: 100px;
@@ -308,17 +323,7 @@ nav ul li a:hover {
   color: White;
 }
 
-footer{
-    /* padding: 40px; */
-}
 
-footer p{
-  color: white;
-  line-height:2;
-}
-footer span{
-
-}
 .fa {
   /* font-size: 30px; */
   width: 100px;
@@ -345,9 +350,7 @@ footer span{
 }
 
 
-footer a{
-    color:white;
-}
+
 
 /* Start Media Query------------------------ */
 
@@ -382,8 +385,24 @@ footer a{
 
 }
 /* large screen styles below */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
 
+  .circle{
+    width:300px;
+    height:300px;
+  }
+  .flex-container {
+    width: 90%;
+    margin: auto;
+  }
 
+}
+/* large screen styles below */
+@media screen and (min-width: 1600px) {
+
+.circle{
+  width:400px;
+  height:400px;
+}
 
 }

@@ -400,9 +400,9 @@ footer span{
 /* large screen styles below */
 @media screen and (min-width: 1600px) {
 
-.circle{
-  width:400px;
-  height:400px;
-}
+  .circle{
+    width:400px;
+    height:400px;
+  }
 
 }
